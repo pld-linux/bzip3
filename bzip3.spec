@@ -6,7 +6,7 @@ Summary:	A better and stronger spiritual successor to BZip2
 Summary(pl.UTF-8):	Lepszy i silniejszy duchowy następca BZip2
 Name:		bzip3
 Version:	1.3.2
-Release:	0.1
+Release:	1
 License:	LGPL-3+
 Group:		Applications/Archiving
 Source0:	https://github.com/kspalaiologos/bzip3/releases/download/%{version}/%{name}-%{version}.tar.bz2
