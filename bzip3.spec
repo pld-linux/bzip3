@@ -5,12 +5,12 @@
 Summary:	A better and stronger spiritual successor to BZip2
 Summary(pl.UTF-8):	Lepszy i silniejszy duchowy następca BZip2
 Name:		bzip3
-Version:	1.4.0
+Version:	1.5.1
 Release:	1
 License:	LGPL-3+
 Group:		Applications/Archiving
 Source0:	https://github.com/kspalaiologos/bzip3/releases/download/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	10bf9ce2967f51549f1f143a596b1ff6
+# Source0-md5:	31f92ca136b7285a514d79707a600da0
 URL:		https://github.com/kspalaiologos/bzip3
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1:1.6
@@ -93,7 +93,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc libsais-LICENSE NEWS PORTING.md README.md
+%doc NEWS PORTING.md README.md 3rdparty/libsais-LICENSE
 %attr(755,root,root) %{_bindir}/bunzip3
 %attr(755,root,root) %{_bindir}/bz3cat
 %attr(755,root,root) %{_bindir}/bz3grep
@@ -112,7 +112,7 @@ rm -rf $RPM_BUILD_ROOT
 %files libs
 %defattr(644,root,root,755)
 %attr(755,root,root) /%{_libdir}/libbzip3.so.*.*.*
-%attr(755,root,root) %ghost /%{_libdir}/libbzip3.so.0
+%attr(755,root,root) %ghost /%{_libdir}/libbzip3.so.1
 
 %files devel
 %defattr(644,root,root,755)
