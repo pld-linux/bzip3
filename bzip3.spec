@@ -5,12 +5,12 @@
 Summary:	A better and stronger spiritual successor to BZip2
 Summary(pl.UTF-8):	Lepszy i silniejszy duchowy następca BZip2
 Name:		bzip3
-Version:	1.5.4
+Version:	1.5.5
 Release:	1
 License:	LGPL-3+
 Group:		Applications/Archiving
 Source0:	https://github.com/iczelia/bzip3/releases/download/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	765bfa527048a29fed39eff79030681f
+# Source0-md5:	228ce211694f1bd076eeab5efeb8059c
 URL:		https://github.com/iczelia/bzip3
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1:1.6
